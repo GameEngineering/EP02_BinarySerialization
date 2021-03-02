@@ -19,7 +19,7 @@ A small, custom pixel art editor using C and OpenGL showing off binary serializa
     - run `proc\win\compile_win_cl.bat`
     - The executable will be placed in `bin\`
     - run `bin\App.exe`
-    - **windows(mingw)**:
+  - **windows(mingw)**:
     - From gitbash, `cd` into root directory for this project
     - run `bash ./proc/win/mingw.sh`
     - The executable will be placed in `bin/`
