@@ -1,7 +1,7 @@
 ## Binary Serialization and Pixel Art in C and OpenGL | Game Engineering - EP02
 
 <p align="left">
-  <img width="460" height="300" src="assets/vid_thumb.png">
+  <img width="460" height="300" src="vid_thumb.png">
 </p>
 
 https://www.youtube.com/watch?v=GXdT8twQxxI&t=0s
