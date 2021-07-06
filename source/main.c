@@ -909,7 +909,7 @@ void pixel_frame_clear_data(pixel_frame_t* pf)
 
 void pixel_frame_save_image_to_disk(pixel_frame_t* pf)
 {
-    /*
+#ifndef GS_PLATFORM_WEB
 	if (pixel_frame_action_is_recording(pf)) {
 		return;
 	}
@@ -948,15 +948,13 @@ void pixel_frame_save_image_to_disk(pixel_frame_t* pf)
 	}
 
 	byte_buffer_free(&buffer);
-    */
+#endif
 
 }
 
 void pixel_frame_load_image_from_disk(pixel_frame_t* pf)
 {
-    return;
-
-    /*
+#ifndef GS_PLATFORM_WEB
 	if (pixel_frame_action_is_recording(pf)) {
 		return;
 	}
@@ -1013,7 +1011,7 @@ void pixel_frame_load_image_from_disk(pixel_frame_t* pf)
 	{
 		// Need to load in .png and then change size of texture...	
 	}
-    */
+#endif
 }
 
 b32 pixel_frame_hovering_ui_window()
